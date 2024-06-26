@@ -9,7 +9,9 @@
     "ios": "expo start --ios",
     "web": "expo start --web",
     "test": "jest --watchAll",
-    "lint": "expo lint"
+    "lint": "expo lint",
+    "fingerprint:set": "npx @expo/fingerprint . > fingerprint.json",
+    "fingerprint:validate": "npx @expo/fingerprint . fingerprint.json"
   },
   "jest": {
     "preset": "jest-expo"
