@@ -29,6 +29,7 @@
     "plugins": ["expo-router"],
     "experiments": {
       "typedRoutes": true
-    }
+    },
+    "runtimeVersion": "ef83e1ce2ec0203c1e71959674df5f75779e2bb6"
   }
 }
